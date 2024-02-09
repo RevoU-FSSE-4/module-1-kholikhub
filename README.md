@@ -27,6 +27,6 @@ _(Kedepannya disini akan di tampilkan rekomendasi makanan di mulai dari rating t
 ---
 
 ### Belajar-Mengerti-Memahami
-_Tidak hanya terbatas pada software anginering namun juga untuk hal lain di dalam menjalani kehidupan ini_
+_Tidak hanya terbatas pada software enginering namun juga untuk hal lain di dalam menjalani kehidupan ini_
 
 ![image](https://assets-global.website-files.com/6100d0111a4ed76bc1b9fd54/62a0314f6b81ed970ac67253_coding%20vs%20programmiing.jpg)

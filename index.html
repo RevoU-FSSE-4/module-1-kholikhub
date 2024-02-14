@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zulicious ( Penesanan makan khusu warga sekolah )</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
+    <div class="bg">
       <header>
-        <nav>
-          <a href="index.html">Home</a> | <a href="daftar.html">Daftar</a> |
-          <a href="contact.html">Contact</a> |
-          <a href="about.html">About me</a>
+        <nav class="container">
+          <div class="contener-left">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="container-right">
+            <a href="register.html">Daftar</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About me</a>
+          </div>  
         </nav>
       </header>
       <main>
         <section>
-          <div style="text-align: center">
+          <div>
             <h1>CANTIN LIVE</h1>
-            <img src="Asset/images.png" alt="logo academy order" />
+            <img src="Asset/Picture/images.png" alt="logo academy order" />
           </div>
           <hr>
         </section>
@@ -39,7 +45,7 @@
           <div>
             <h3>Rekommendasi menu yang kami sediakan</h3>
             <div>
-              <img src="Asset/ayam geprek.jpeg" alt="gambar produk" />
+              <img src="Asset/Picture/ayam geprek.jpeg" alt="gambar produk" />
               <h3>Ayam Geprek</h3>
               <p>
                 Tekstur ayam renyah dengan kombinasi sambal yang mengguah selera
@@ -47,7 +53,7 @@
             </div>
             <div>
               <img
-                src="Asset/091210600_1654485871-shutterstock_1894096312.jpg"
+                src="Asset/Picture/091210600_1654485871-shutterstock_1894096312.jpg"
                 alt="gambar produk"
                 width="290"
                 height="174"
@@ -57,7 +63,7 @@
             </div>
             <div>
               <img
-                src="Asset/Air-Mineral-Linimassa.jpeg"
+                src="Asset/Picture/Air-Mineral-Linimassa.jpeg"
                 alt="gambar produk"
                 width="290"
                 height="174"
@@ -100,7 +106,6 @@
                     placeholder="Nama Lengkap"
                   />
                 </div>
-                <br>
                 <div>
                   <label for="addres">Alamat Lengkap</label>
                  </div>
@@ -108,7 +113,6 @@
                   <textarea rows="4" cols="50">
                   </textarea>
                 </div>
-                <br />
                 <div>
                   <label for="password">Password</label>
                   <input
@@ -118,7 +122,6 @@
                     placeholder="Password"
                   />
                 </div>
-                <br>
                 <div>
                   <label for="nis">Nomer Induk Siswa</label>
                   <input type="number" id="nis" name="nis" placeholder="NIS" />
@@ -128,7 +131,6 @@
                   <label for="file">Unggah Foto Kartu Pelajar</label>
                   <input type="file" value="Unggah" />
                 </div>
-                <br />
                 <div>
                   <label for="phone">No HP/WA</label>
                   <input
@@ -138,7 +140,6 @@
                     placeholder="+62"
                   />
                 </div>
-                <br>
                 <div>
                     <label for="gender">Jenis Kelamin</label>
                     <select name="gender" id="gender">
@@ -146,43 +147,43 @@
                         <option value="gender">Perempuan</option>
                     </select>
                 </div>
-                <br />
                   <input type="submit" value="Daftar" />
                   <input type="reset" value="Reset" />
               </form>
             </div>
           </div>
         </section>
+        <section>
+          <div>
+            <h2>Contact Us</h2>
+            <p>Email : kholik.wowk@gmail.com</p>
+            <p>
+                Alamat: JL IR H Juanda no 438
+                RT 02 RW 06 Kel. Patokan Kec.Kraksaan
+                Kab. Probolinggo Provinsi Jawa Timur
+            </p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="privasi.html">Kebijakan Privasi</a></li>
+            </ul>
+        </div>
+        </section>
       </main>
     </div>
   </body>
-  <hr>
   <footer>
     <div>
-      <h2>Contact Us</h2>
-      <p>Email : kholik.wowk@gmail.com</p>
-      <p>
-          Alamat: JL IR H Juanda no 438
-          RT 02 RW 06 Kel. Patokan Kec.Kraksaan
-          Kab. Probolinggo Provinsi Jawa Timur
-      </p>
-  </div>
-  <div>
-      <ul>
-          <li><a href="tentang-kami.html">Tentang Kami</a></li>
-          <li><a href="kontak.html">Kontak</a></li>
-          <li><a href="kebijakan-privasi.html">Kebijakan Privasi</a></li>
-      </ul>
-  </div>
-  <div>
-    <div>
-      <a href="www.linkedin.com/in/muhammad-kholik-12643429b"><img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" width="50" height="50" alt="linkedin"></a>
-      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="50" height="50" alt="Twitter"></a>
-      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" width="50" height="50" alt="Instagram"></a>
+      <div>
+        <a href="www.linkedin.com/in/muhammad-kholik-12643429b"><img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" width="50" height="50" alt="linkedin"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="50" height="50" alt="Twitter"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" width="50" height="50" alt="Instagram"></a>
+      </div>
     </div>
-  </div>
-  <div>
+   <div>
       <p>Hak Cipta &copy; 2024 Cantin Online Web. Hak Cipta Dilindungi.</p>
-  </div>
+   </div>
   <footer>
 </html>

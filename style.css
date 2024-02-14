@@ -1,5 +1,5 @@
 body {
-    background-image:url(Asset/Picture/background-01.jpg);
+    background-image:url(Asset/image/background-01.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat
@@ -7,4 +7,6 @@ body {
 
 .container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

@@ -1,12 +1,91 @@
-body {
-    background-image:url(Asset/image/background-01.jpg);
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
-.container {
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/1843912.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+}
+
+nav.sticky {
+    padding: 15px 20px;
+    background: red;
+}
+
+.nav-content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a { 
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.nav-content ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-content ul li {
+    list-style: none;
+    margin :0 10px;
+}
+
+.nav-content ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 4px;
+    transition: all 0.5s ease;
+}
+
+.nav-content ul li a:hover {
+    color: #4070f4;  
+
+}
+
+nav.sticky .nav-content ul li a:hover {
+    color: #0e2431;
+}
+.text {
+    padding: 40px 80px;
+    text-align:center;
+}
+
+
+.text h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: solid black;
+    margin: 50px;
+    box-shadow: -5px 1-px rgba(0,0,0,0.1);
+}
+.text h2 {
+    text-align: center;
+    font-size: 24px;
+    color: brown;
+    margin:auto;
 }

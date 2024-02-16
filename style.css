@@ -208,7 +208,7 @@ select {
 @media only screen and (min-width: 1024px) {
     body {
         justify-content: center;
-        background-color: #254397;
+        /* background-color: #254397; */
     }
 }
 
@@ -216,6 +216,6 @@ select {
     .nav-content {
         flex-direction: row;
         justify-content: left;
-        background-color: rgb(170, 104, 104);   
+        /* background-color: rgb(170, 104, 104);    */
     }
 }

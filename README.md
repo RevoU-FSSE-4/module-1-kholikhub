@@ -10,7 +10,7 @@ Utuk Tampilannya bisa di lihat [di sini](https://kizfy.netlify.app/)
 
 ---
 
-## Feature di Web
+## Feature di Web ini
 
 #### 1. REGISTER
 ![image](<Asset/image/SS menu register.png>)

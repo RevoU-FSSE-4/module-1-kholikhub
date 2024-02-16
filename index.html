@@ -11,88 +11,89 @@
         <section class="home">
           <nav>
             <div class="nav-content">
-              <div class="logo">
-                <a href="index.html">Home</a>
+              <div>
+                <a href="index.html"><img src="Asset/image/logo try.png" alt="KIZFY logo" class="nav-logo"></a>
               </div>
-              <ul>  
+              <ul id="myLinks"> 
+                <li><a href="index.html">Home</a></li> 
                 <li><a href="register.html">Daftar</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About Us</a></li>
-              </ul>
+                <li><a href="about.html">About</a></li>
+              </ul>      
             </div>
           </nav>
         </section>
       </header>
       <main>
         <section>
-          <div class="text">
+          <div>
             <h1>CANTIN LIVE</h1>
-            <h2>PINTAR ITU SIMPEL</h2>
-            <div>
-              <b>BELAJAR-MAKAN-BELAJAR</b>
-            </div>
-            <div>
-              <b>Tanpa belajar sulit untuk menjadi pintar</b>
-            </div>
-            <div>
-              <b>Tanpa makan jelas susah untuk belajar</b>
-            </div>
-            <div>
-              <b>Makan dan b elajar adalah satu paket yang tidak bisa dipisahkan</b>
+            <div class="quotes">
+              <h3>PINTAR ITU SIMPLE</h3>
+              <p>BELAJAR-MAKAN-BELAJAR</p>
+              <p>Tanpa <b>BELAJAR</b> sulit untuk menjadi pintar</p>
+              <p>Tanpa <b>MAKAN</b> jelas susah untuk belajar</p>
+              <p><b>MAKAN</b> dan <b>BELAJAR</b> adalah dua hal yang tidak bisa dipisahkan</p>
             </div>
           </div>
+        </section>
         <section>
-          <div>
-            <h3>Rekommendasi menu yang kami sediakan</h3>
-            <div>
-              <img src="Asset/image/ayam geprek.jpeg" alt="gambar produk" />
-              <h3>Ayam Geprek</h3>
-              <p>
-                Tekstur ayam renyah dengan kombinasi sambal yang mengguah selera
-              </p>
-            </div>
-            <div>
-              <img
-                src="Asset/image/091210600_1654485871-shutterstock_1894096312.jpg"
-                alt="gambar produk"
-                width="290"
-                height="174"
-              />
-              <h3>Jajangmyon</h3>
-              <p>Mie kenyal yang di balur dengan saus ala korea</p>
-            </div>
-            <div>
-              <img
-                src="Asset/image/Air-Mineral-Linimassa.jpeg"
-                alt="gambar produk"
-                width="290"
-                height="174"
-              />
-              <h3>Air Mineral</h3>
-              <p>Pelega dahaga dikala haus melanda</p>
+          <div class="container-recommendation">
+            <h2>Rekommendasi Menu</h2>
+            
+            <div class="container">
+              <div class="container-card">
+                <div class="card">
+                  <img src="Asset/image/ayam geprek.jpeg" 
+                  alt="gambar Ayam Geprek" 
+                  class="img-card"
+                  />
+                  <h3>Ayam Geprek</h3>
+                  <p>
+                  Tekstur ayam renyah dengan kombinasi sambal yang mengguah selera
+                  </p>
+                </div>
+                <div class="card">
+                  <img
+                  src="Asset/image/091210600_1654485871-shutterstock_1894096312.jpg"
+                  alt="gambar Jajangmyon"
+                  class="img-card"
+                   />
+                  <h3>Jajangmyon</h3>
+                  <p>Mie kenyal yang di balur dengan saus ala korea</p>
+                </div>
+                <div class="card">
+                  <img
+                    src="Asset/image/Air-Mineral-Linimassa.jpeg"
+                    alt="gambar Air Mineral"
+                    class="img-card"
+                    />
+                  <h3>Air Mineral</h3>
+                  <p>Pelega dahaga dikala haus melanda</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
       </main>
-    </section>
-  <script>
+    <script>
     var nav = document.querySelector("nav")
     window.addEventListener("scroll", ()=> {
-      if (document.documentElement.scrollTop > 800 ) {
+      if (document.documentElement.scrollTop > 700 ) {
         nav.classList.add("sticky");
       }else{
         nav.classList.remove("sticky");
       }
     });
-  </script>
+    </script>
   </body>
   <footer>
-    <div>
+    <div class="sosmed">
       <a href="www.linkedin.com/in/muhammad-kholik-12643429b"><img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" width="50" height="50" alt="linkedin"></a>
       <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="50" height="50" alt="Twitter"></a>
       <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" width="50" height="50" alt="Instagram"></a>
     </div>
-    <div>
+    <div class="cr">
       <p>Hak Cipta &copy; 2024 Cantin Online Web. Hak Cipta Dilindungi.</p>
     </div>
   <footer>
